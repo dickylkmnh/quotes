@@ -31,19 +31,6 @@ const MenuComponent = () => {
     useEffect(() => {
         loadQuotes();
         loadDataPayment();
-
-        let angka1 = 60;
-        const angka2 = 90;
-
-        angka1 = 90
-
-        alert(angka1)
-
-        if(angka1 > 60) {
-            alert('ini bagus')
-        } else if(angka1 = 60) {
-            alert
-        }
     }, []);
 
     function loadDataPayment() {
